@@ -1,10 +1,8 @@
 package com.reservation;
-import com.reservation.Bookings;
 import java.util.Scanner;
 public class Billing {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        Bus b1 = new Bus();
         Bookings u1 = new Bookings("jrs",10,10,30,"name");
         System.out.println("enter your name");
         u1.passengerName= scan.nextLine();
